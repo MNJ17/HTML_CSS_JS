@@ -4,22 +4,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato
-  </title>
+  <title>Contato</title>
 </head>
 <body>
-
-  <li><a href="./principal.html" title="Menu de opições" target="_blank">Menu</a></li>
-  <h1>Como entrar em contato comigo</h1>
-  <h3>Segue links das minhas redes sociais, no linkedin contém mais informações sobre mim:</h3>
   <ul>
-
-    <li><a href="https://www.linkedin.com/in/monaliza-nascimento-de-jesus-a99987213/" title="Meu linkedin" target="_blank">Linkedin</a></li>
-    <li><a href="https://github.com/MNJ17" title="Meu Github" target="_blank">Github</a></li>
-
+    <li><a href="./principal.html" title="Menu de opições" target="_blank">Menu</a></li>
   </ul>
+  <h1>Entre em contato</h1>
+
+  <form>
+
+    <p>
+      <table>
+
+      Nome*:
+      <input name="Nome" type="text" required>
+
+    </table>
+  </p>
+
+  <p>
+    <table>
+      Email*:
+      <input name="Email" type="email" required>
+    </table>
+  </p>
+
+  <p>
+    <table>
+      Telefone:
+      <input name="Telefone" type="tel" placeholder="(00) 00000-0000" pattern="\([0-9]{2\})[\s][0-9]{5}-[0-9]{4}">
+    </table>
+  </p>
+
+   <p>
+     <table>
+      Motivo do contato*:
+      <select name="Motivo-contato"required>
+      <option value="Orcamento-site" selected>Orçamento para a criação do site</option>
+      <option value="Mentoria">Mentoria</option>
+      <option value="Divulgação-vaga">Divulgação de vaga</option>
+      <option value="Proposta-emprego">Proposta de emprego</option>
+      <option value="sugestão">Sugestão</option>
+      <option value="outro">Outro</option>
+    </select>
+    </table>
+   </p>
+
+  <p>
+   <table>
+    Mensagem*:
+    <textarea name="mensagem" rows="5" placeholder="Como posso te ajudar?" required></textarea>
 
 
+   </table>
+
+  </p>
+
+  <button type="submit"> Enviar </button>
+  <button type="reset"> Limpar formulário </button>
+  </form>
 
 </body>
 </html>
