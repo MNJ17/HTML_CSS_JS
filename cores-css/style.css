@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 400px;
+  right: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1, p{
+
+  margin: 20px;
+
+}
+.roxo {
+
+  background-color: rgba(188, 111, 188, 0.861);
+  border: 4px solid purple;
+
+}
+
+.azul {
+
+  background-color: rgb(66, 66, 149);
+  border: 3px solid rgb(1, 1, 21);
+}
+
+.rosa {
+
+  background-color: pink;
+  border: 2px solid rgb(255, 6, 176);
+}
+
+.verde {
+
+  background-color: rgb(64, 124, 64);
+  border: 5px solid rgb(33, 53, 24);
+}
