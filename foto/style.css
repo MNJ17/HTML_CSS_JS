@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.foto {
+
+  position: relative;
+
+}
+
+
+#imagem {
+  width: 100vw;
+  height: calc(100vw / 4);
+  max-width: 792px;
+  max-height: 198px;
+  position: absolute;
+
+}
+
+#texto {
+
+  position: absolute;
+  font-size: 20px;
+  left: 540px;
+  top: auto;
+
+}
