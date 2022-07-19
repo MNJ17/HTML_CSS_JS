@@ -4,11 +4,24 @@
   padding: 0;
 }
 
+
+:root {
+   --blue: #0000fffd;
+   --blue2: #1f59a5c1;
+   --lightBlue: #add8e6;
+   --darkBlue: #2237c15f;
+   --white: #ffffff;
+   --babyBlue: #add8e6;
+   --babyBlue2: #2bd6e2c8;
+
+}
+
+
 body {
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  background-color: rgb(173, 216, 230);
+  background-color: var(--lightBlue);
 }
 
 
@@ -20,7 +33,7 @@ body {
 .sobreposição {
   height: 250px;
   width: 300px;
-  background-color: rgba(34, 55, 193, 0.372);
+  background-color: var(--darkBlue);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   position: absolute;
@@ -47,7 +60,7 @@ body {
   width: 300px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  background-color: rgba(31, 89, 165, 0.756);
+  background-color: var(--blue2);
   ;
   padding: 20px 30px;
   display: flex;
@@ -59,7 +72,7 @@ body {
 
 .textos h1,
 .textos h3 {
-  color: rgb(255, 255, 255);
+  color: var(--white);
   font-weight: 900;
   font-family: 'Abril Fatface', cursive;
 }
@@ -91,27 +104,27 @@ body {
 
 .textos form input::placeholder {
   font-size: 12px;
-  color: rgba(0, 0, 255, 0.992);
+  color: var(--blue);
 }
 
 .textos form input:focus {
-  background-color: rgb(173, 216, 230);
-  box-shadow: 1px 1px 10px 2px rgba(43, 214, 226, 0.785);
+  background-color: var(--babyBlue);
+  box-shadow: 1px 1px 10px 2px var(--babyBlue2);
 }
 
 .textos form button {
   height: 25px;
   border-radius: 8px;
   border: none;
-  background-color: rgba(0, 0, 255, 0.992);
-  color: rgb(255, 255, 255);
+  background-color: var(--blue);
+  color: var(--white);
   cursor: pointer;
 }
 
 .textos form button:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgba(0, 0, 255, 0.992);
-  border: 2px solid rgba(0, 0, 255, 0.992);
+  background-color: var(--white);
+  color: var(--blue);
+  border: 2px solid var(--blue);
   transition: 1s;
 }
 
